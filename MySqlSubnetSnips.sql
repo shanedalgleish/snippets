@@ -1,4 +1,4 @@
-Find the Smallest Subnet for two IP addresses.
+#Find the Smallest Subnet for two IP addresses.
 
 SET @IP='192.168.4.0';
 SET @IP2='192.168.62.254';
@@ -14,7 +14,7 @@ SELECT
 ;
 
 
-Find the subnet details for an IP
+#Find the subnet details for an IP
 
 SET @IP='172.31.20.250';
 SET @CIDR='25';
