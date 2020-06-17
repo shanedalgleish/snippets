@@ -1,4 +1,8 @@
 #Find the Smallest Subnet for two IP addresses.
+#
+#Outputs
+# network	subnet	mask		broadcastAddress	rangeStart	rangeEnd	addresses
+# 192.168.0.0	18	255.255.192.0	192.168.63.255		192.168.0.1	192.168.63.254	16382
 
 SET @IP='192.168.4.0';
 SET @IP2='192.168.62.254';
